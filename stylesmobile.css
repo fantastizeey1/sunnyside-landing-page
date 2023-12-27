@@ -8,11 +8,13 @@ header .header-top nav{
     width: 0px;
     top: 5em;
     height: 0px;
+    margin-top: 10px;
     border-left: 35px solid transparent;
     border-right: 0px solid transparent;
     border-bottom: 40px solid rgb(255, 255, 255);
 }
 header .header-top nav img{
+    margin-left: 210px;
     padding: 2em;
     display: block;
 }
@@ -28,6 +30,7 @@ header .header-top nav ul{
     right: 10%;
     background-color: #ffffff;
     padding: 0em;
+    margin-top: -5px
 }
 header .header-top nav ul li{
     display: flex;
@@ -49,7 +52,7 @@ header .header-top nav ul li .contact{
 }
 .icon-wrap h1{
     text-align: center;
-    font-size: 1rem;
+    font-size: 3rem;
 }
 main article{
     flex-direction: column;
