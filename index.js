@@ -12,14 +12,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 window.onload = function() {
     if (screen.width <= 600 ) {
-        document.getElementById("egg").src = "images/mobile/image-transform.jpg";
-        document.getElementById("standout").src = "images/mobile/image-stand-out.jpg";
-        document.getElementById("design").src = "images/mobile/image-graphic-design.jpg";
-        document.getElementById("orange").src = "images/mobile/image-gallery-orange.jpg";
-        document.getElementById("photography").src = "images/mobile/image-photography.jpg";
-        document.getElementById("cone").src = "images/mobile/image-gallery-cone.jpg";
-        document.getElementById("sugarcube").src = "images/mobile/image-gallery-sugar-cubes.jpg";
-        document.getElementById("milkbottles").src = "images/mobile/image-gallery-milkbottles.jpg";
+        document.getElementById("egg").src = "/image-transform.jpg";
+        document.getElementById("standout").src = "/image-stand-out.jpg";
+        document.getElementById("design").src = "/image-graphic-design.jpg";
+        document.getElementById("orange").src = "/image-gallery-orange.jpg";
+        document.getElementById("photography").src = "/image-photography.jpg";
+        document.getElementById("cone").src = "/image-gallery-cone.jpg";
+        document.getElementById("sugarcube").src = "/image-gallery-sugar-cubes.jpg";
+        document.getElementById("milkbottles").src = "/image-gallery-milkbottles.jpg";
     }
 }; 
 
