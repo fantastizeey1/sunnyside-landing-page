@@ -1,0 +1,119 @@
+header .header-top nav{
+    width: 90%;
+}
+.triangle{
+    display: none;
+    position: absolute;
+    right: 10%;
+    width: 0px;
+    top: 5em;
+    height: 0px;
+    border-left: 35px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 40px solid rgb(255, 255, 255);
+}
+header .header-top nav img{
+    padding: 2em;
+    display: block;
+}
+header .header-top nav ul{
+    position: absolute;
+    display: none;
+    width: 80%;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 80%;
+    right: 10%;
+    background-color: #ffffff;
+    padding: 0em;
+}
+header .header-top nav ul li{
+    display: flex;
+    flex-direction: center;
+}
+header .header-top nav ul li a{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 1em;
+    color: #2d7466;
+}
+header .header-top nav ul li .contact{
+    width: 100%;
+    text-align: center;
+    background-color: #fbd601;
+    margin: 0;
+    color: #1b1d1c;
+}
+.icon-wrap h1{
+    text-align: center;
+    font-size: 1rem;
+}
+main article{
+    flex-direction: column;
+}
+main article section{
+    width: 100%;
+
+}
+main article section h1{
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+main article section p{
+    width: 90%;
+    font-size: 1.6rem;
+    text-align: center;
+}
+main article section a{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+main article .img-article{
+    width: 100%;
+}
+main #article_1{
+    flex-flow: column-reverse;
+}
+main .article-footer .footer-box{
+    width: 100%;
+}
+main .article-footer .footer-box .img-text{
+    height: 100%;
+    justify-content: flex-end;
+}
+main .article-footer .footer-box .img-text h2{
+    font-size: 2rem;
+}
+main .article-footer .footer-box .img-text p{
+    width: 90%;
+    font-size: 1rem;
+}
+main .client-testimonials .testimonial-content{
+    display: flex;
+    flex-direction: column;
+}
+main .client-testimonials .testimonial-content .testimonial-card{
+    width: 100%;
+}
+.testimonial-card img{
+    margin-top: 2em;
+}
+.testimonial-card p{
+    font-size: 1.5rem;
+}
+.testimonial-card h3{
+    font-size: 2rem;
+}
+main .clipper{
+    flex-wrap: wrap;
+}
+.clipper img{
+    width: 50%;
+}
