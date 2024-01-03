@@ -104,6 +104,12 @@ header {
     border-radius: 2em;
     margin-right: 1em;
 }
+.header-top nav li a:hover{
+    color: orangered;
+    background-color: #ffffff;
+    border-radius: 2em;
+    margin-right: 1em;
+}
 .icon-wrap{
     display: flex;
     flex-direction: column;
